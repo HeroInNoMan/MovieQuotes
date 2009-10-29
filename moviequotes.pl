@@ -12,13 +12,13 @@ $VERSION = 'beta';
     );
 
 my @movies = (); # an array which will contain the file/movie names (each file stands for a movie).
-my $channel = "#neuneu"; # the channel in which the script is 'running'.
-my $directory = "Citations"; # the directory where the quote files are stored.
-my $myNick = "Duncan"; # the script's user nickname (to avoid annoying loops when present multiple times on $channel).
+my $channel; # the channel in which the script is 'running'.
+my $directory; # the directory where the quote files are stored.
+my $myNick = "HINM"; # the script's user nickname (to avoid annoying loops when present multiple times on $channel).
 my @forbidden = ('list', 'help', 'random', 'add'); # words which are forbidden to use for new file names.
 my $cooldown = 2; # The duration in seconds you have to wait between two calls to the script (avoids flooding).
 my $timer = 0; # a timer to be used for calculating the cooldown time.
-my $bottag = "[citations]"; # a tag to avoid confusion between what is said by moviequotes and what is freely typed.
+my $bottag = "[quotes]"; # a tag to avoid confusion between what is said by moviequotes and what is freely typed.
 
 
 # Get all public messages and filter only the ones written on $channel.
