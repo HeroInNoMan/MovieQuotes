@@ -4,7 +4,7 @@ use vars qw($VERSION %IRSSI);
 use Irssi;
 $VERSION = 'beta';
 %IRSSI = (
-    authors     => 'Duncan',
+    authors     => 'Hero In No Man',
     contact     => 'hero.in.no.man@gmail.com',
     name        => 'Movie quotes',
     description => 'This script prints random movie quotations which can be added by users' .
