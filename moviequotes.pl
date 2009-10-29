@@ -1,1 +1,0 @@
-/home/duncan/.irssi/scripts/moviequotes.pl
